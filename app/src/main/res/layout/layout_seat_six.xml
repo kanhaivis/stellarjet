@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_seats_alpha"
+            android:layout_width="64dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/ic_seat_available"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:text="A"
+            android:textColor="@android:color/white" />
+
+        <com.ns.custom.CustomTxtView_OptimaRegular
+            android:id="@+id/textView_seat_alpha"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_seats_alpha"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/seat_alpha"
+            android:textColor="@color/whight"
+            android:textSize="10sp" />
+
+
+        <Button
+            android:id="@+id/button_seats_beta"
+            android:layout_width="64dp"
+            android:layout_height="75dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/ic_seat_available"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:text="B"
+            android:textColor="@android:color/white" />
+
+        <com.ns.custom.CustomTxtView_OptimaRegular
+            android:id="@+id/textView_seat_beta"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_seats_alpha"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/seat_beta"
+            android:textColor="@color/whight"
+            android:textSize="10sp" />
+
+
+        <Button
+            android:id="@+id/button_seats_charlie"
+            android:layout_width="64dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/textView_seat_alpha"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/ic_seat_available"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:layout_marginTop="30dp"
+            android:text="C"
+            android:textColor="@android:color/white" />
+
+        <com.ns.custom.CustomTxtView_OptimaRegular
+            android:id="@+id/textView_seat_charlie"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_seats_charlie"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/seat_charlie"
+            android:textColor="@color/whight"
+            android:textSize="10sp" />
+
+
+        <Button
+            android:id="@+id/button_seats_delta"
+            android:layout_width="64dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/textView_seat_beta"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/ic_seat_available"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:text="D"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/white" />
+
+        <com.ns.custom.CustomTxtView_OptimaRegular
+            android:id="@+id/textView_seat_delta"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_seats_delta"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/seat_delta"
+            android:textColor="@color/whight"
+            android:textSize="10sp" />
+
+
+        <Button
+            android:id="@+id/button_seats_echo"
+            android:layout_width="64dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/textView_seat_delta"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/ic_seat_available"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:text="E"
+            android:textColor="@android:color/white" />
+
+        <com.ns.custom.CustomTxtView_OptimaRegular
+            android:id="@+id/textView_seat_echo"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_seats_echo"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/seat_echo"
+            android:textColor="@color/whight"
+            android:textSize="10sp" />
+
+
+        <Button
+            android:id="@+id/button_seats_foxtrot"
+            android:layout_width="64dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/textView_seat_echo"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/ic_seat_available"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:text="F"
+            android:textColor="@android:color/white" />
+
+        <com.ns.custom.CustomTxtView_OptimaRegular
+            android:id="@+id/textView_seat_foxtrot"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_seats_foxtrot"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/seat_foxtrot"
+            android:textColor="@color/whight"
+            android:textSize="10sp" />
+
+
+        <Button
+            android:id="@+id/button_seats_shofha1"
+            android:layout_width="64dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/textView_seat_charlie"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/ic_seat_booked_right_face"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_seats_shofha2"
+            android:layout_width="64dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/button_seats_shofha1"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/ic_seat_booked_right_face"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_seats_shofha3"
+            android:layout_width="64dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/button_seats_shofha2"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/ic_seat_booked_right_face"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:textColor="@android:color/white" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

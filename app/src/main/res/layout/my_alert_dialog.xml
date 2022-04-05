@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+        android:id="@+id/myalert_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="ksdkfjasfkjasdf"
+        android:textSize="@dimen/txt_15"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/myalert_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myalert_title"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:fontFamily="@font/columbia_serial_light"
+        android:text="Ok" />
+
+
+</RelativeLayout>

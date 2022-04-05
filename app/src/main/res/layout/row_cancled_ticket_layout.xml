@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+
+    <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+        android:id="@+id/row_cancle_ticket_seatname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Seat name"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/whight"
+        android:textSize="@dimen/txt_18" />
+
+    <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+        android:id="@+id/row_cancle_ticket_guestname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seat name"
+        android:alpha="0.4"
+        android:textColor="@color/whight"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/row_cancle_ticket_seatname"
+        android:textSize="@dimen/txt_15" />
+
+    <ImageView
+        android:id="@+id/row_cancle_ticket_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_tik_uncheck"
+        android:layout_alignParentRight="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:alpha="0.2"
+        android:layout_below="@+id/row_cancle_ticket_guestname"
+        android:background="@color/colorAddressDivider" />
+
+</RelativeLayout>

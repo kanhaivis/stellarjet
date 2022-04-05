@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/top"
+        layout="@layout/layout_topfixed_seat" />
+
+    <com.ns.custom.CustomTxtView_OptimaRegular
+        android:id="@+id/textView_seat_twelve_available_seats"
+        android:textSize="@dimen/txt_14"
+        android:textColor="@color/whight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:gravity="center"
+        android:text="12 seats available" />
+
+
+    <RelativeLayout
+        android:id="@+id/middle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView_seat_twelve_available_seats">
+
+        <LinearLayout
+            android:id="@+id/layout_two_left_sun_status"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:contentDescription="@string/info_flight_sunset"
+                android:src="@drawable/ic_sun" />
+
+            <com.ns.custom.VerticalTextView
+                android:id="@+id/textView_two_left_sun_status"
+                style="@style/StellarTextView_14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:rotation="0"
+                android:text="@string/info_flight_sunset" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/layout_two_left_sun_status"
+            android:alpha="0.5"
+            android:background="@android:color/white" />
+
+        <ScrollView
+            android:id="@+id/scrollView_seat_layout_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="60dp"
+            android:scrollbars="none">
+
+            <include layout="@layout/layout_seat_twelve" />
+
+        </ScrollView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="32dp"
+            android:alpha="0.5"
+            android:background="@android:color/white" />
+
+        <LinearLayout
+            android:id="@+id/layout_two_right_sun_status"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:contentDescription="@string/info_flight_sunrise"
+                android:src="@drawable/ic_sun" />
+
+            <com.ns.custom.VerticalTextView
+                android:id="@+id/textView_two_right_sun_status"
+                style="@style/StellarTextView_14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:rotation="180"
+                android:text="@string/info_flight_sunrise" />
+        </LinearLayout>
+
+        <include layout="@layout/seat_layout_progressbar" />
+    </RelativeLayout>
+
+
+    <include layout="@layout/common_bottom_confirm" />
+
+
+</RelativeLayout>

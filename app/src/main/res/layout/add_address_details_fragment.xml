@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="19dp"
+            android:src="@drawable/ic_slider" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/textView_set_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/address_set_pickup_location"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/textView_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="31dp"
+            android:alpha="0.4"
+            android:text="@string/info_address"
+            android:textAllCaps="true"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_12" />
+
+        <EditText
+            android:id="@+id/editText_add_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="8dp"
+            android:alpha="0.8"
+            android:inputType="text"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/textView_address_flatno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="31dp"
+            android:alpha="0.4"
+            android:text="@string/info_address_flat_no"
+            android:textAllCaps="true"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_12" />
+
+        <EditText
+            android:id="@+id/editText_add_address_flat_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="8dp"
+            android:alpha="0.8"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@android:color/white" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/textView_address_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="31dp"
+            android:alpha="0.4"
+            android:text="@string/info_address_nickname"
+            android:textAllCaps="true"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_12" />
+
+        <EditText
+            android:id="@+id/editText_add_address_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:alpha="0.8"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button_add_address_confirm"
+            style="@style/StellarWhiteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/info_button_add_address"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

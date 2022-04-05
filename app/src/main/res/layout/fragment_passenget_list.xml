@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scrollView_passenger"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:fitsSystemWindows="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/layout_title_subtitle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="47dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_marginBottom="24dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                        android:id="@+id/textView_passenger_self"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/drawable_passenger_select_left_bg"
+                        android:gravity="center"
+                        android:text="@string/info_passenger_self"
+                        android:textColor="@color/colorPassengerText"
+                        android:textSize="13sp" />
+
+                    <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                        android:id="@+id/textView_passenger_guests"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="-2dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/drawable_passenger_select_right"
+                        android:gravity="center"
+                        android:text="@string/info_passenger_guest"
+                        android:textColor="@color/colorPassengerText" />
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView_passenger_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginEnd="28dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/button_confirm_booking"
+                    style="@style/StellarWhiteButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center_vertical|start"
+                    android:paddingStart="24dp"
+                    android:text="@string/confirm_booking"
+                    android:textAllCaps="false"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <include
+            layout="@layout/tc_content_slide_up_view"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>

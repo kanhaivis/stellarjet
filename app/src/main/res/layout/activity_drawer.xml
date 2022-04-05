@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginBottom="10dp"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/button_drawer_close"
+        style="@style/StellarImageButton"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="4dp"
+        android:src="@drawable/ic_close" />
+
+
+    <View
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/button_drawer_close"
+        android:layout_marginTop="50dp"
+        android:alpha="0.1"
+        android:background="@color/colorAddressDivider" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_drawer_personal_assistance"
+        android:layout_below="@+id/v"
+        android:layout_marginTop="15dp" />
+
+
+    <Button
+        android:id="@+id/button_drawer_personal_assistance"
+        style="@style/StellarWhiteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:gravity="start|center_vertical"
+        android:text="@string/drawer_personal_assistance"
+        android:textAllCaps="false" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/StellarTextView_16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.4"
+        android:text="@string/drawer_help" />
+
+
+</RelativeLayout>

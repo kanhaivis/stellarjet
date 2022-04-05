@@ -1,0 +1,325 @@
+<resources>
+    <string name="app_name">StellarjetApp</string>
+
+
+    <!-- Login Activity -->
+    <string name="login_button">Login</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="login_title">Hello, and welcome to Stellarjet.</string>
+    <string name="login_header">
+        Please sign-in using your Email/Mobile Number.
+    </string>
+    <string name="login_accountId">Email/Mobile Number</string>
+    <string name="login_password">Password</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+
+    <string name="signup_button">New User?</string>
+
+    <!-- password -->
+    <string name="password_header">Now enter your password to confirm your identity.</string>
+
+    <!-- otp -->
+    <string name="otp_title">OTP</string>
+    <string name="otp_header">Please enter OTP, sent to your mobile \nnumber</string>
+
+    <string name="place_enter_email_phone_hint">Please enter a email or phone.</string>
+
+
+    <!-- passcode  -->
+    <string name="passcode_title_hello_again">Hello again.</string>
+    <string name="passcode_title_hello">Hello </string>
+    <string name="passcode_title_create_passcode">Create Passcode</string>
+    <string name="passcode_title_confirm_passcode">Confirm Passcode</string>
+    <string name="passcode_title_enter_passcode">Enter Passcode</string>
+    <string name="passcode_title_heading">Please enter your passcode</string>
+    <string name="passcode_title_heading_confirm">Please confirm your passcode</string>
+    <string name="passcode_title_heading_create">Please create your passcode</string>
+    <string name="passcode_kwypad_one">1</string>
+    <string name="passcode_kwypad_two">2</string>
+    <string name="passcode_kwypad_three">3</string>
+    <string name="passcode_kwypad_four">4</string>
+    <string name="passcode_kwypad_five">5</string>
+    <string name="passcode_kwypad_six">6</string>
+    <string name="passcode_kwypad_seven">7</string>
+    <string name="passcode_kwypad_eight">8</string>
+    <string name="passcode_kwypad_nine">9</string>
+    <string name="passcode_kwypad_zero">0</string>
+    <string name="passcode_kwypad_del">X</string>
+
+
+    <!-- Home Activity -->
+    <string name="home_see_you_again">It\'s nice to see you again!</string>
+    <string name="home_remaining_seats">You still have 24 seats available before you need to top up your credit.
+    </string>
+    <string name="home_remaining_seats_first_half">You still have</string>
+    <string name="home_remaining_seats_second_half">seats available before you need to top up your credit.</string>
+    <string name="home_button_book_flight">Book a Flight</string>
+    <string name="home_title_hello_again_dummy">Hello again Ragav, Welcome back</string>
+    <string name="home_title_hello_again">Hello again \n</string>
+    <string name="home_title_hello">Hello \n</string>
+    <string name="home_title_welcome_back">\nWelcome back</string>
+    <string name="home_title_welcome">\nWelcome </string>
+    <string name="home_booking_for">Booking for</string>
+    <string name="home_booking_for_primary">Mr.Raghav Sekar</string>
+
+
+    <string name="booking_from">Where are you flying from?</string>
+    <string name="booking_to">Where are you going to?</string>
+
+    <string name="booking_from_dummy">Delhi Office</string>
+    <string name="boardingPass_flight_title">Flight No</string>
+
+    <string name="booking_date_dummy">This Friday, 20 Sep - 7:45 am</string>
+    <string name="booking_date_seats_available">4 seats available</string>
+    <string name="booking_confirm_date">Confirm Date</string>
+
+
+    <!-- new seat -->
+    <string name="personalize_seat_title">Where would you like to sit?</string>
+    <string name="preferences_manager_info_title">Your booking \nmanager’s details</string>
+
+    <string name="seats_available">Available</string>
+    <string name="seats_selected">Selected</string>
+    <string name="seats_booked">Booked</string>
+    <string name="seats_available_dummy">10 seats available</string>
+
+    <string name="info_flight_sunrise">Sun Rise</string>
+    <string name="info_flight_sunset">Sun Set</string>
+
+    <string name="seat_alpha">Alpha</string>
+    <string name="seat_beta">Bravo</string>
+    <string name="seat_charlie">Charlie</string>
+    <string name="seat_delta">Delta</string>
+    <string name="seat_echo">Echo</string>
+    <string name="seat_foxtrot">Foxtrot</string>
+    <string name="seat_golf">Golf</string>
+    <string name="seat_hotel">Hotel</string>
+    <string name="seat_indigo">Indigo</string>
+    <string name="seat_india">India</string>
+    <string name="seat_juliet">Juliet</string>
+    <string name="seat_kilo">Kilo</string>
+    <string name="seat_lima">Lima</string>
+    <string name="seat_m">Mike</string>
+    <string name="seat_n">November</string>
+    <string name="seat_o">Oscar</string>
+    <string name="seat_p">Papa</string>
+    <string name="seat_q">Quebec</string>
+
+    <string name="booking_confirm_seatss">Confirm Seats</string>
+    <string name="booking_confirm_seat">Confirm Seat</string>
+    <string name="submit">Submit</string>
+
+
+
+    <string name="info_your_feedback">Your Feedback</string>
+
+    <string name="tag_seat_straight">Straight</string>
+    <string name="tag_seat_reverse">Reverse</string>
+    <string name="tag_seat_left">Left</string>
+    <string name="tag_seat_right">Right</string>
+
+
+    <!-- buy seats -->
+    <string name="info_purchase_title">Purchase Seats</string>
+    <string name="info_purchase_sub_heading">Now enter your required number of seats</string>
+    <string name="info_purchase_required_seats">Required max 10 seats.</string>
+    <string name="info_purchase_pay_amount">Total payable amount</string>
+    <string name="info_purchase_buy_now">Buy Now</string>
+
+
+    <!-- drawer -->
+    <string name="drawer_info_preferences">Preferences</string>
+    <string name="drawer_info_buy_seats">Buy Seats</string>
+    <string name="drawer_info_preferences_heading">Your preferences</string>
+    <string name="drawer_info_boarding_pass">Boarding Pass</string>
+    <string name="drawer_info_bookings">My Bookings</string>
+    <string name="drawer_personal_assistance">Call Us</string>
+    <string name="drawer_help">Contact us for any further assistance.\n We are happy to help you</string>
+
+
+    <string name="boardingPass_heading">Your Boarding Passes</string>
+
+    <!-- booking -->
+    <string name="booking_from_city">Bangalore</string>
+    <string name="booking_to_city">New Delhi</string>
+    <string name="booking_id">Booking Id</string>
+    <string name="booking_airport_sample">HAL Airport</string>
+    <string name="booking_trip_details_title">Trip Details</string>
+
+    <string name="booking_summary_date">Date</string>
+    <string name="booking_summary_departure_time">Departure Time</string>
+    <string name="booking_summary_date_dummy">Wed, 27 11 2018</string>
+    <string name="booking_summary_departure_time_dummy">07:30 hrs</string>
+    <string name="booking_summary_done_personalize">You have personalized your preferences</string>
+    <string name="booking_summary_need_personalize">Please personalize your preferences</string>
+    <string name="booking_summary_personalize_time">Please update before 10-Dec-2018, 3:00 pm</string>
+    <string name="booking_summary_personalize_time_expiry">Please update before</string>
+    <string name="booking_summary_cancel_booking">Cancel Booking</string>
+    <string name="booking_summary_cancel_ticket">"You have cancelled the ticket</string>
+
+
+    <string name="boardingPass_num_seats_title">NO OF SEATS</string>
+    <string name="boardingPass_num_seats_dummy">2</string>
+    <string name="boardingPass_reach_plane_by">Reach your plane by</string>
+    <string name="boardingPass_reach_plane_by_dummy">07:15 hrs</string>
+    <string name="boardingPass_aircraft_no">Aircraft Reg No</string>
+    <string name="boardingPass_aircraft_no_dummy">VT-ABC</string>
+
+    <string name="boardingPass_dummy_flight_name">Stellar 1</string>
+
+
+    <!-- new boarding pass-->
+    <string name="boarding_seats">Seats</string>
+    <string name="boarding_passengers">Passengers</string>
+    <string name="boarding_passengers_breakfast">Breakfast</string>
+
+
+    <string name="booking_summary_booked_seats_names">Golf, Hotel, Alpha, Bravo, Echo and Charlie</string>
+    <string name="info_passenger_dummy">Mr.Ragav shekar, Ms. Uma Shankaran N.S,Mr. Manish Pandey, Mr. Arya, Mr. Ramesh,
+        Mr. Raguram Sharma
+    </string>
+
+    <string name="flight_">Please arrive before 15 minutes.</string>
+    <string name="flight_reportTime">Please arrive before </string>
+
+    <string name="proceed">Proceed</string>
+    <string name="tc_heading">Please, agree Terms and Condition to confirm booking.</string>
+    <string name="tc_content">I have read and agree to the term and I declarer that i am not carrying any of the dangerous and prohibited goods stipulated by DGCA.</string>
+
+    <string name="download_boarding_pass">Download Borading Pass</string>
+    <string name="download_all_boarding_pass">Download all Passes</string>
+    <string name="download_by_seat">DOWNLOAD BY SEAT</string>
+
+    <string name="bookings_title">Your Bookings</string>
+    <string name="bookings_booked_by">Tickets booked by</string>
+
+
+    <!-- new cab strings-->
+    <string name="cab_pref_title">Book your transportation</string>
+    <string name="cab_pref_heading">We would be happy to send one of our luxury service cars to take you
+        to and from the flight.
+    </string>
+
+
+    <string name="personalize_cab_title">Pick-up and drop-off</string>
+
+
+    <string name="cab_personalize_pickup_title">Pick up</string>
+    <string name="cab_personalize_drop_title">Drop</string>
+    <string name="cab_personalize_optional_title">Optional</string>
+    <string name="cab_personalize_pickup_location">Pick Up Location</string>
+    <string name="cab_personalize_drop_location">Drop Location</string>
+    <string name="cab_personalize_pickup_enter_location">Enter location</string>
+
+
+    <string name="please_wait">please wait</string>
+
+
+    <string name="booking_managet_title">Your booking managers</string>
+    <string name="booking_managet_subtitle">Booking managers have access to your account to book tickets for you on your behalf.</string>
+    <string name="booking_addmanager_title">Add a booking manager.</string>
+    <string name="booking_addmanager_subtitle">Please provide your contact name exactly as it appears in the ID that they will bring with them if they fly.</string>
+
+
+    <string name="info_passenger_title">Passenger Info</string>
+    <string name="info_passenger_heading">Please provide passenger info for the trip</string>
+    <string name="info_passenger_self_question">Are you travelling in this trip?</string>
+    <string name="info_passenger_self">Me</string>
+    <string name="info_passenger_guest">My Guest</string>
+    <string name="info_passenger_self_guests">Me &amp; My Guests</string>
+    <string name="info_passenger_guests">My Guests</string>
+
+    <string name="confirm_booking">Confirm booking</string>
+
+    <string name="traveling">Who is travelling?</string>
+    <string name="subtraveling">Please provide your contact name exactly as it appears in the ID that you will bring with you.</string>
+
+
+    <string name="info_global_food_title">What sort of menu do you usually prefer?</string>
+    <string name="info_global_food_heading">Our menus change constantly, but this is the kind of mouthwatering
+        food you can expect.
+    </string>
+
+
+    <string name="booking_success_confirmed">Your booking is\nconfirmed</string>
+    <string name="booking_success_arrival_time">We will see you at Home at 6.45am, \n this Friday</string>
+    <string name="booking_success_message">
+        Please take a moment to personalise your booking by adding your pick-up and drop-off preferences and dining
+        choice.
+    </string>
+
+    <string name="personalize">Personalize</string>
+    <string name="personalize_message">This can be done at any time up to 4 hours before take off.</string>
+
+    <string name="info_use_current_location">Current Location</string>
+    <string name="info_using_gps">Using GPS</string>
+    <string name="info_saved_address_title">From one of my saved addresses</string>
+
+
+    <string name="info_address">ADDRESS</string>
+    <string name="info_address_flat_no">House/flat no</string>
+    <string name="info_address_location">Location</string>
+    <string name="info_address_nickname">Nick Name</string>
+    <string name="info_button_add_address">Confirm Address</string>
+
+    <!--add address -->
+    <string name="address_set_pickup_location">Set pickup location</string>
+    <string name="address_set_drop_location">Set drop location</string>
+    
+    
+    <string name="cancel_heading">Cancel Booking </string>
+    <string name="cancel_details">You can cancel your booking here…</string>
+    
+    <string name="download_boarding_pass_header">Download Boarding pass</string>
+    <string name="download_boarding_pass_details">You can download your boarding passes here...</string>
+
+    <string name="foodmenulist">What would you like to eat?</string>
+
+    <string name="confirm">Confirm</string>
+
+
+    <string name="hint_feedback">Type your feedback here...</string>
+
+
+
+    <string name="purchase_title">Your previous purchase is not yet completed</string>
+    <string name="purchase_amount">Total payable amount for </string>
+    <string name="purchase_id">Purchase ID</string>
+    <string name="purchase_amount_received">Amount Received</string>
+    <string name="purchase_below_proceed">Pls, complete the payment to proceed with new purchases</string>
+    <string name="purchase_below_successfull">You can proceed with new purchases after successfull payment</string>
+    <string name="purchase_below_neft">Pls, enter this Purchade ID in your transfer notes</string>
+
+    <string name="purchase_account">Account No</string>
+    <string name="purchase_ifsc">IFS Code</string>
+    <string name="purchase_beneficiary">Beneficiary Name</string>
+
+
+
+    <string name="status">Status</string>
+    
+    
+    
+    <string name="bardingpass_url_empty">Your boarding passes are not generated yet. Pl wait some time!</string>
+
+    <!-- Biometric-->
+    <string name="biometric_title">Login</string>
+    <string name="biometric_subtitle">Login to your StellarJet account</string>
+    <string name="biometric_negative_button_text">Cancel</string>
+
+    <string name="biometric_error_sdk_not_supported">Sdk version not supported</string>
+    <string name="biometric_error_hardware_not_supported">Device does not support biometric authentication</string>
+    <string name="biometric_error_fingerprint_not_available">Fingerprint is not registered in device</string>
+    <string name="biometric_error_permission_not_granted">Permission is not granted by user</string>
+    <string name="biometric_failure">Please try again</string>
+    <string name="biometric_cancelled">Authentication cancelled by user</string>
+    <string name="biometric_success">Login Successful</string>
+
+    <string name="biometric_thank_you">Thank you.</string>
+    <string name="biometric_sub_heading">
+        From now on, for speed and security, we’ll log you in using your Touch ID.
+        \n\nPlease hold your finger
+        over the button to confirm.
+    </string>
+
+</resources>

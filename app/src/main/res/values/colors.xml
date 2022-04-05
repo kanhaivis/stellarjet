@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackgroundTop">#13133f</color>
+    <color name="colorBackgroundBottom">#20204f</color>
+    <color name="colorLoginButton">#d18c11</color>
+    <color name="colorSecondaryButton">#343652</color>
+    <color name="colorBookingsDivider">#cacaca</color>
+    <color name="colorBoardingPassBackground">#2b2b4d</color>
+    <color name="colorAddressDivider">#979797</color>
+    <color name="colorCreditAlert">#ff5731</color>
+    <color name="colorSecondaryButtonColor">#404056</color>
+    <color name="colorPrefButtonColor">#454581</color>
+    <color name="colorBookingCardBg">#20203d</color>
+    <color name="colorEditTextBackground">#373751</color>
+    <color name="colorCalendarBackground">#FF13132F</color>
+    <color name="colorPersonalizeButtonBackground">#393956</color>
+    <color name="colorCabPreferBackground">#1E1E37</color>
+    <color name="colorFoodPreferBackground">#2b2b44</color>
+    <color name="colorBottomSheetManagersName">#8f8e94</color>
+    <color name="colorBottomSheetDivider">#4d4d4d</color>
+    <color name="colorBottomSheetDeactivate">#0076ff</color>
+    <color name="colorBottomSheetDelete">#fe3824</color>
+    <color name="colorBookingsPersonalize">#8a8a99</color>
+    <color name="colorButtonNew">#13132f</color>
+    <color name="colorPassengerSelectBg">#929292</color>
+    <color name="colorPassengerText">#949494</color>
+    <color name="colorBoardingPassHeader">#3b3d58</color>
+    <color name="colorBoardingPassBody">#34354c</color>
+    <color name="colorPersonalizeButton">#656574</color>
+    <color name="colorCabPersonalizeCardView">#525376</color>
+    <color name="colorBookingBgCard">#34354c</color>
+    <color name="colorEditText">#46465A</color>
+    <color name="colorEditTextPassCode">#6E6E7D</color>
+    <color name="colorSeatBg">#26273F</color>
+    <color name="colorSeatNotationBg">#313248</color>
+    <color name="colorDateSelectionBg">#0f1026</color>
+    <color name="colorCancelBooking">#EE5555</color>
+
+    <color name="tcSliderHeader">#232243</color>
+    <color name="tcSliderBg">#34354c</color>
+
+    <color name="red">#b60707</color>
+    <color name="whight">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+
+    <color name="confirm_btn_bg">#929292</color>
+
+
+</resources>

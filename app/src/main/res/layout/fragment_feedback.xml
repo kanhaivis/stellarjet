@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:alpha="0.9"
+            android:fontFamily="@font/columbia_serial_light"
+            android:gravity="start"
+            android:lineSpacingExtra="5dp"
+            android:text="Your feedbacks are most welcome"
+            android:textAllCaps="false"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_22" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:alpha="0.4"
+            android:fontFamily="@font/columbia_serial_light"
+            android:gravity="start"
+            android:lineSpacingExtra="5dp"
+            android:text="Our menus change constantly,"
+            android:textAllCaps="false"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp">
+
+            <include layout="@layout/common_recyclerview" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <com.ns.custom.CustomButton_ColumbiaSerialRegular
+        android:id="@+id/ticket_feedback_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/drawable_seat_confirm_select_bg"
+        android:gravity="left|center"
+        android:paddingLeft="10dp"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        android:textSize="@dimen/txt_18" />
+
+    <ProgressBar
+        android:id="@id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+</RelativeLayout>

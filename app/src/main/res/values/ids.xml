@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="common_recycler" type="id"/>
+    <item name="progressBar" type="id"/>
+    <item name="relativeProgressBar" type="id"/>
+    <item name="framePane" type="id"/>
+
+</resources>

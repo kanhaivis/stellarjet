@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_boarding_pass_back"
+        style="@style/StellarBackButton"
+        android:layout_marginStart="15dp" />
+
+
+    <ImageView
+        android:id="@+id/shared_img"
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        android:layout_alignTop="@+id/button_boarding_pass_back"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/share_icon"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/boardingPass_CPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/button_boarding_pass_back">
+
+    </FrameLayout>
+
+</RelativeLayout>

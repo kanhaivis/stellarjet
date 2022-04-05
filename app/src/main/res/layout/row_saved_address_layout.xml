@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="13dp">
+
+    <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+        android:id="@+id/row_saved_address_heading"
+        android:textSize="@dimen/txt_18"
+        android:textColor="@color/whight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:drawableStart="@drawable/ic_saved_addr_pin"
+        android:drawablePadding="23dp"
+        tools:text="Bangalore Home" />
+
+    <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+        android:id="@+id/row_saved_address_details"
+        android:textSize="@dimen/txt_14"
+        android:textColor="@color/whight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:alpha="0.3"
+        android:visibility="visible"
+        tools:text="Snn Raj Serenity, Yelanahalli, Begur Ro..." />
+
+</LinearLayout>

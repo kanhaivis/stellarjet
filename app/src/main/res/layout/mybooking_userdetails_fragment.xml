@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                        android:id="@+id/mybooking_uesrdetails_fromtocity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:alpha="0.9"
+                        android:fontFamily="@font/columbia_serial_light"
+                        android:gravity="start"
+                        android:lineSpacingExtra="5dp"
+                        android:text="Bangalore to Delhi "
+                        android:textAllCaps="false"
+                        android:textColor="@color/whight"
+                        android:textSize="@dimen/txt_28" />
+
+                    <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                        android:id="@+id/mybooking_uesrdetails_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/mybooking_uesrdetails_fromtocity"
+                        android:layout_marginTop="24dp"
+                        android:alpha="0.8"
+                        android:fontFamily="@font/columbia_serial_light"
+                        android:text="@string/booking_summary_date_dummy"
+                        android:textColor="@color/whight"
+                        android:textSize="@dimen/txt_14" />
+
+                    <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                        android:id="@+id/mybooking_uesrdetails_departure_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:alpha="0.8"
+                        android:text="@string/booking_summary_departure_time_dummy"
+                        android:textColor="@color/whight"
+                        android:textSize="@dimen/txt_14"
+                        android:visibility="gone" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/row_divider"
+                        android:layout_below="@+id/mybooking_uesrdetails_date"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:alpha="0.2"
+                        android:background="@color/colorAddressDivider" />
+
+                    <ImageView
+                        android:id="@+id/mybooking_uesrdetails_cancleicon"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginEnd="28dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/cancelled"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+
+
+                <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                    android:id="@+id/mybooking_uesrdetails_seats_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.4"
+                    android:fontFamily="@font/columbia_serial_light"
+                    android:text="@string/boarding_seats"
+                    android:textColor="@color/whight"
+                    android:textSize="@dimen/txt_12" />
+
+                <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                    android:id="@+id/mybooking_uesrdetails_seats_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="24dp"
+                    android:alpha="0.8"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/columbia_serial_light"
+                    android:maxLines="1"
+                    android:text="@string/booking_summary_booked_seats_names"
+                    android:textColor="@color/whight"
+                    android:textSize="@dimen/txt_14" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/row_divider"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="16dp"
+                    android:alpha="0.2"
+                    android:background="@color/colorAddressDivider" />
+
+                <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                    android:id="@+id/mybooking_uesrdetails_passengers_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.4"
+                    android:fontFamily="@font/columbia_serial_light"
+                    android:text="@string/boarding_passengers"
+                    android:textAllCaps="false"
+                    android:textColor="@color/whight"
+                    android:textSize="@dimen/txt_12" />
+
+                <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                    android:id="@+id/mybooking_uesrdetails_passengers_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="24dp"
+                    android:alpha="0.8"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/columbia_serial_light"
+                    android:lineSpacingExtra="10dp"
+                    android:maxLines="1"
+                    android:text="@string/info_passenger_dummy"
+                    android:textColor="@color/whight"
+                    android:textSize="@dimen/txt_14" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/row_divider"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="16dp"
+                    android:alpha="0.2"
+                    android:background="@color/colorAddressDivider" />
+
+                <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                    android:id="@+id/mybooking_uesrdetails_tickecreatebyname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.4"
+                    android:text="Ticket by"
+                    android:textColor="@color/whight" />
+
+
+                <com.ns.custom.CustomButton_ColumbiaSerialRegular
+                    android:id="@+id/ticket_feedback_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/drawable_seat_confirm_select_bg"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    android:text="@string/info_your_feedback"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/txt_18"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/ticket_status_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+
+                    <LinearLayout
+                        android:id="@+id/picdropup_dining_viewLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/row_divider"
+                            android:layout_marginTop="90dp"
+                            android:alpha="0.4"
+                            android:background="@color/colorAddressDivider" />
+
+
+                        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                            android:id="@+id/mybooking_uesrdetails_pickupanddropoff"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:drawableRight="@drawable/ic_date_next"
+                            android:drawablePadding="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:text="Pickup and drop off"
+                            android:textColor="@color/whight"
+                            android:textSize="@dimen/txt_16" />
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/row_divider"
+                            android:alpha="0.4"
+                            android:background="@color/colorAddressDivider" />
+
+                        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                            android:id="@+id/mybooking_uesrdetails_dining"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:drawableRight="@drawable/ic_date_next"
+                            android:drawablePadding="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:text="Dining"
+                            android:textColor="@color/whight"
+                            android:textSize="@dimen/txt_16" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/row_divider"
+                        android:alpha="0.4"
+                        android:background="@color/colorAddressDivider" />
+
+
+                    <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                        android:id="@+id/mybooking_uesrdetails_cancelbooking"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="center"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+                        android:text="Cancel Booking"
+                        android:textColor="@color/colorCancelBooking"
+                        android:textSize="@dimen/txt_16" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/row_divider"
+                        android:alpha="0.4"
+                        android:background="@color/colorAddressDivider" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+</LinearLayout>

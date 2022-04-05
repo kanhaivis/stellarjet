@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_back" />
+
+
+    <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Your preferences"
+        android:textColor="@color/whight"
+        android:textSize="@dimen/txt_20" />
+
+
+    <RelativeLayout
+        android:id="@+id/preference_managerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp">
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/manager_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Booking managers"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_19" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/manager_title"
+            android:layout_marginTop="5dp"
+            android:alpha="0.4"
+            android:text="Who can help you book tickets"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+        <ImageView
+            android:id="@+id/manager_iconClick"
+            android:layout_width="13dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_date_next" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="8dp"
+        android:alpha="0.1"
+        android:background="@color/colorAddressDivider" />
+
+
+    <RelativeLayout
+        android:id="@+id/preference_diningLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp">
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/dining_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dining preferences"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_19" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dining_title"
+            android:layout_marginTop="5dp"
+            android:alpha="0.4"
+            android:text="Set your favourite dining options"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+        <ImageView
+            android:id="@+id/dining_iconClick"
+            android:layout_width="13dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_date_next" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="8dp"
+        android:alpha="0.1"
+        android:background="@color/colorAddressDivider" />
+
+</LinearLayout>

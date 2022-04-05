@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="30dp">
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="NEFT Payment"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_40" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:alpha="0.4"
+            android:text="We accept only NEFT payment option for purchases above INR 5,00,000"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/neft_total_seat_countTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:alpha="0.4"
+            android:text="@string/purchase_amount"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/neft_total_seat_amountTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_18" />
+
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:alpha="0.4"
+            android:text="@string/purchase_beneficiary"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_12" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/neft_beneficiary_name_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Stellarjet Pvt Ltd"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:alpha="0.4"
+            android:text="@string/purchase_account"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/neft_account_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:alpha="0.4"
+            android:text="@string/purchase_ifsc"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/neft_ifsc_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:alpha="0.4"
+            android:text="@string/purchase_id"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/neft_purchaseid_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="10dp"
+            android:alpha="0.4"
+            android:text="@string/purchase_below_neft"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+
+    </LinearLayout>
+
+    <com.ns.custom.CustomButton_ColumbiaSerialRegular
+        android:id="@+id/neft_DoneBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/drawable_button_bg"
+        android:gravity="left|center"
+        android:paddingLeft="@dimen/txt_10"
+        android:text="Done"
+        android:textAllCaps="false"
+        android:textSize="@dimen/txt_22" />
+</RelativeLayout>

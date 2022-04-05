@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="16dp"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+        android:id="@+id/textView_place_row"
+        android:textSize="@dimen/txt_18"
+        android:textColor="@color/whight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/columbia_serial_light"
+        android:gravity="start"
+        android:letterSpacing="0.05"
+        android:padding="8dp" />
+
+    <View
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/button_drawer_close"
+        android:alpha="0.1"
+        android:background="@color/colorAddressDivider" />
+</LinearLayout>

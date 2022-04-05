@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+        android:id="@+id/row_passenger_name_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:alpha="0.4"
+        android:text="Me"
+        android:textColor="@color/whight"
+        android:textSize="@dimen/txt_12" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/row_passenger_name_autoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/drawable_edittext_background"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/whight" />
+
+
+    <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+        android:id="@+id/row_passenger_phone_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:alpha="0.4"
+        android:text="Mobile Number"
+        android:textColor="@color/whight"
+        android:textSize="@dimen/txt_12" />
+
+    <EditText
+        android:id="@+id/row_passenger_phone"
+        style="@style/StellarEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/drawable_edittext_background"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLength="10"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+    <View
+        android:id="@+id/view_bookings_details_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="15dp"
+        android:alpha="0.1"
+        android:background="@color/colorAddressDivider" />
+
+
+</LinearLayout>

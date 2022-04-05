@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "74664283053",
+    "firebase_url": "https://stellarjet-f07d2.firebaseio.com",
+    "project_id": "stellarjet-f07d2",
+    "storage_bucket": "stellarjet-f07d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74664283053:android:3ff9cb99b736b3cd",
+        "android_client_info": {
+          "package_name": "com.ns.stellarjet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74664283053-bhc4t9mqtjjucvs2i2r1h9gja1nfm4ja.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ns.stellarjet",
+            "certificate_hash": "4bfd3b75634b9a30b6a530e54b8f5b887d3d8e00"
+          }
+        },
+        {
+          "client_id": "74664283053-8njoenenehb4a28g6j0cahrik02vhcui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1uZYkROp06LPKTv6kkj7Zt1FUmsZGAq4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74664283053-8njoenenehb4a28g6j0cahrik02vhcui.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "74664283053-fp52pnhidhgi4c7r07gsb1vn8k840pqh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ninestars.StellarJet"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

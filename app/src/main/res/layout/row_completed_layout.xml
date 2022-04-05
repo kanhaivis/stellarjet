@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/drawable_booking_list_bg"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/row_mybooking_from_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.9"
+            android:text="K 1"
+            android:textAllCaps="true"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/row_mybookHeading" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/row_mybooking_to_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:alpha="0.9"
+            android:text="K 2"
+            android:textAllCaps="true"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/row_mybookHeading" />
+
+        <ImageView
+            android:id="@+id/imageView_boarding_pass_flight"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_flight_alone"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/row_mybooking_from_airport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/row_mybooking_from_city"
+            android:layout_marginTop="4dp"
+            android:alpha="0.4"
+            android:text="K1"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/row_mybookAirport" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/row_mybooking_to_airport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/row_mybooking_to_city"
+
+            android:layout_alignParentRight="true"
+            android:alpha="0.4"
+            android:text="K2"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/row_mybookAirport"
+            app:layout_constraintEnd_toEndOf="@+id/row_mybooking_to_city"
+            app:layout_constraintTop_toBottomOf="@+id/row_mybooking_to_city" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_bookings_details_dividers"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/top"
+        android:layout_marginTop="20dp"
+        android:alpha="0.2"
+        android:background="@color/whight" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_bookings_details_dividers"
+        android:layout_marginTop="20dp">
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/row_mybooking_boardingpass_date_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.4"
+            android:text="Date"
+            android:textAllCaps="true"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/row_mybookDate" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/row_mybooking_boardingpass_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/row_mybooking_boardingpass_date_title"
+            android:layout_marginTop="5dp"
+            android:alpha="0.8"
+            android:text="ksksksk"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/row_mybookDateStr" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/textView_row_boarding_pass_departure_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:alpha="0.4"
+            android:text="Departure Time"
+            android:textAllCaps="true"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/row_mybookDate" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/row_mybooking_boardingdeparture_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_row_boarding_pass_departure_title"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:alpha="0.8"
+            android:text="jjjj"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/row_mybookDateStr" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_row_boarding_pass_personalize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:background="@color/colorBoardingPassBody"
+        android:paddingBottom="15dp"
+        android:visibility="gone">
+
+
+        <View
+            android:id="@+id/view_bookings_details_divider"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:alpha="0.2"
+            android:background="@color/whight"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/row_mybooking_personalize_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:alpha="0.4"
+            android:drawablePadding="10dp"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/row_mybookPersonalize" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/row_mybooking_cancelicon"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/top"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/cancelled"
+        android:textColor="@color/whight"
+        android:visibility="gone" />
+
+</RelativeLayout>

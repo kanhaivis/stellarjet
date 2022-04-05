@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button_boarding_pass_back"
+        style="@style/StellarBackButton"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:id="@+id/textView_bookings_title"
+        style="@style/StellarTextView_20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/columbia_serial_regular"
+        android:gravity="center"
+        android:text="@string/bookings_title" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/home_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        app:tabBackground="@drawable/drawable_bookings_selector"
+        app:tabIndicatorColor="@android:color/transparent"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/colorButtonNew"
+        app:tabTextAppearance="@style/BookingsTabText"
+        app:tabTextColor="@android:color/white" />
+
+    <com.ns.custom.MyCustomViewPager
+        android:id="@+id/home_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

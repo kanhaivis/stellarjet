@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical">
+
+    <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+        android:id="@+id/feedback_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_tik_uncheck"
+        android:gravity="start"
+        android:lineSpacingExtra="5dp"
+        android:textAllCaps="false"
+        android:textColor="@color/whight"
+        android:textSize="@dimen/txt_18" />
+
+    <LinearLayout
+        android:id="@+id/feedback_layout_showhide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <RatingBar
+            android:id="@+id/feedback_ratingStars"
+            style="@style/CustomRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:numStars="5" />
+
+        <EditText
+            android:id="@+id/feedback_msg"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/drawable_edittext_background"
+            android:gravity="left|top"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textColor="@color/whight"
+            android:textColorHint="@color/whight"
+            android:textSize="@dimen/txt_14" />
+    </LinearLayout>
+
+</LinearLayout>

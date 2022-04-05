@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/info_purchase_title"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_40" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:alpha="0.4"
+            android:text="@string/purchase_title"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/purchaseseat_payamountseatTitleTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:alpha="0.4"
+            android:text="@string/purchase_amount"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/purchaseseat_payamountseat_amountTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Rs. 50000"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_18" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:alpha="0.4"
+            android:text="@string/purchase_id"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/purchaseseat_purchaseidTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="SRSTJ50187"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/purchaseseat_recivedtitleTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:alpha="0.4"
+            android:text="@string/purchase_amount_received"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16"
+            android:visibility="gone" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/purchaseseat_recivedamountTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Rs. 888888"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16"
+            android:visibility="gone" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:alpha="0.4"
+            android:text="@string/status"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/purchaseseat_statusTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/info_purchase_title"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/purchaseseat_below_messageTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:alpha="0.4"
+            android:text="@string/purchase_below_proceed"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <com.ns.custom.CustomButton_ColumbiaSerialRegular
+        android:id="@+id/purchase_DoneBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/drawable_button_bg"
+        android:gravity="left|center"
+        android:paddingLeft="@dimen/txt_10"
+        android:text="Done"
+        android:textAllCaps="false"
+        android:textSize="@dimen/txt_22" />
+</FrameLayout>

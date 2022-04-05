@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/top"
+        layout="@layout/layout_title_subtitle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.4"
+            android:text="Name"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_12" />
+
+        <EditText
+            android:id="@+id/addmanager_nameEdt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/drawable_edittext_background"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="@color/whight"
+            android:textColorHint="@color/whight" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:alpha="0.4"
+            android:text="Mobile Number"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_12" />
+
+        <EditText
+            android:id="@+id/addmanager_phoneEdt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/drawable_edittext_background"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:maxLength="10"
+            android:textColor="@color/whight"
+            android:textColorHint="@color/whight" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:alpha="0.4"
+            android:text="Email"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_12" />
+
+        <EditText
+            android:id="@+id/addmanager_emailEdt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/drawable_edittext_background"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/whight"
+            android:textColorHint="@color/whight" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addmanager_confirmBtn"
+        style="@style/StellarWhiteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="47dp"
+        android:gravity="center_vertical|start"
+        android:text="@string/confirm_button"
+        android:textAllCaps="false" />
+</RelativeLayout>

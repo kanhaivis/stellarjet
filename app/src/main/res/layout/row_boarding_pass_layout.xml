@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/drawable_booking_list_bg"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_row_boarding_pass_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBoardingPassHeader"
+        android:paddingBottom="18dp">
+
+        <TextView
+            android:id="@+id/textView_row_boarding_pass_from_city"
+            style="@style/StellarTextView_16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="18dp"
+            android:alpha="0.9"
+            android:text="@string/booking_from_city"
+            android:textAllCaps="true"
+            android:fontFamily="@font/optima_regular"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView_row_boarding_pass_to_city"
+            style="@style/StellarTextView_16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            android:alpha="0.9"
+            android:text="@string/booking_to_city"
+            android:textAllCaps="true"
+            android:fontFamily="@font/optima_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView_boarding_pass_flight"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_flight_alone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView_row_boarding_pass_from_airport"
+            style="@style/StellarTextView_12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:alpha="0.4"
+            android:text="@string/booking_airport_sample"
+            app:layout_constraintStart_toStartOf="@+id/textView_row_boarding_pass_from_city"
+            app:layout_constraintTop_toBottomOf="@+id/textView_row_boarding_pass_from_city" />
+
+        <TextView
+            android:id="@+id/textView_row_boarding_pass_to_airport"
+            style="@style/StellarTextView_12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:alpha="0.4"
+            android:fontFamily="@font/optima_regular"
+            android:text="@string/booking_airport_sample"
+            app:layout_constraintEnd_toEndOf="@+id/textView_row_boarding_pass_to_city"
+            app:layout_constraintTop_toBottomOf="@+id/textView_row_boarding_pass_to_city" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBoardingPassBody"
+        android:paddingBottom="25dp">
+
+        <TextView
+            android:id="@+id/textView_row_boarding_pass_date_title"
+            style="@style/StellarTextView_12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="18dp"
+            android:alpha="0.4"
+            android:fontFamily="@font/optima_regular"
+            android:text="@string/booking_summary_date"
+            android:textAllCaps="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView_row_boarding_pass_date"
+            style="@style/StellarTextView_16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:alpha="0.8"
+            android:fontFamily="@font/optima_regular"
+            android:text="@string/booking_summary_date_dummy"
+            app:layout_constraintStart_toStartOf="@+id/textView_row_boarding_pass_date_title"
+            app:layout_constraintTop_toBottomOf="@+id/textView_row_boarding_pass_date_title" />
+
+        <TextView
+            android:id="@+id/textView_row_boarding_pass_departure_title"
+            style="@style/StellarTextView_12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            android:alpha="0.4"
+            android:fontFamily="@font/optima_regular"
+            android:text="@string/booking_summary_departure_time"
+            android:textAllCaps="true"
+            app:layout_constraintBottom_toBottomOf="@+id/textView_row_boarding_pass_date_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView_row_boarding_pass_departure_time"
+            style="@style/StellarTextView_16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:alpha="0.8"
+            android:fontFamily="@font/optima_regular"
+            android:text="@string/booking_summary_departure_time_dummy"
+            app:layout_constraintEnd_toEndOf="@+id/textView_row_boarding_pass_departure_title"
+            app:layout_constraintTop_toBottomOf="@+id/textView_row_boarding_pass_departure_title" />
+
+        <View
+            android:id="@+id/view_bookings_details_divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="8dp"
+            android:alpha="0.1"
+            android:background="@color/colorAddressDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_row_boarding_pass_departure_time" />
+
+        <TextView
+            android:id="@+id/textView_boarding_pass_num_seats_title"
+            style="@style/StellarTextView_10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:alpha="0.4"
+            android:fontFamily="@font/optima_regular"
+            android:text="@string/boardingPass_num_seats_title"
+            android:textAllCaps="true"
+            app:layout_constraintStart_toStartOf="@+id/textView_row_boarding_pass_date_title"
+            app:layout_constraintTop_toBottomOf="@+id/view_bookings_details_divider" />
+
+        <TextView
+            android:id="@+id/textView_row_boarding_pass_seats"
+            style="@style/StellarTextView_14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:alpha="0.8"
+            android:fontFamily="@font/optima_regular"
+            android:text="@string/boardingPass_num_seats_dummy"
+            app:layout_constraintStart_toStartOf="@+id/textView_boarding_pass_num_seats_title"
+            app:layout_constraintTop_toBottomOf="@+id/textView_boarding_pass_num_seats_title" />
+
+        <TextView
+            android:id="@+id/textView_row_boarding_pass_flight_title"
+            style="@style/StellarTextView_10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            android:alpha="0.4"
+            android:fontFamily="@font/optima_regular"
+            android:text="@string/boardingPass_flight_title"
+            android:textAllCaps="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_bookings_details_divider" />
+
+        <TextView
+            android:id="@+id/textView_row_boarding_pass_flight_name"
+            style="@style/StellarTextView_16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:alpha="0.8"
+            android:fontFamily="@font/optima_regular"
+            android:text="@string/boardingPass_dummy_flight_name"
+            app:layout_constraintEnd_toEndOf="@+id/textView_row_boarding_pass_flight_title"
+            app:layout_constraintTop_toBottomOf="@+id/textView_row_boarding_pass_flight_title" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="27dp"
+    android:layout_marginEnd="26dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/textView_purchase_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/info_purchase_title"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_40" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/textView_purchase_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:alpha="0.5"
+            android:gravity="start"
+            android:text="@string/info_purchase_sub_heading"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/textView_purchase_seats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:alpha="0.56"
+            android:text="@string/info_purchase_required_seats"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_12" />
+
+        <EditText
+            android:id="@+id/editText_purchase_seat_count"
+            style="@style/StellarEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/drawable_edittext_background"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:maxLength="2"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/textView_purchase_amount_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:alpha="0.56"
+            android:text="@string/info_purchase_pay_amount"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_14"
+            android:visibility="gone" />
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/textView_purchase_pay_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Rs. 0"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_16"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button_purchase_buy_now"
+            style="@style/StellarWhiteButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="23dp"
+            android:gravity="center_vertical|start"
+            android:text="@string/info_purchase_buy_now"
+            android:textAllCaps="false"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center" />
+
+</FrameLayout>

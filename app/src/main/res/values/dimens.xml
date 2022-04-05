@@ -1,0 +1,38 @@
+<resources>
+    <!-- The width that is used when creating thumbnails of applications. -->
+    
+    <dimen name="row_divider">0.5dp</dimen>
+    <dimen name="row_mybookHeading">14sp</dimen>
+    <dimen name="row_mybookAirport">10sp</dimen>
+    <dimen name="row_mybookDateStr">12sp</dimen>
+    <dimen name="row_mybookDate">9sp</dimen>
+    <dimen name="row_mybookPersonalize">12sp</dimen>
+    
+    <dimen name="txt_10">10sp</dimen>
+    <dimen name="txt_11">11sp</dimen>
+    <dimen name="txt_12">12sp</dimen>
+    <dimen name="txt_13">13sp</dimen>
+    <dimen name="txt_14">14sp</dimen>
+    <dimen name="txt_15">15sp</dimen>
+    <dimen name="txt_16">16sp</dimen>
+    <dimen name="txt_17">17sp</dimen>
+    <dimen name="txt_18">18sp</dimen>
+    <dimen name="txt_19">19sp</dimen>
+    <dimen name="txt_20">20sp</dimen>
+    <dimen name="txt_21">21sp</dimen>
+    <dimen name="txt_22">22sp</dimen>
+
+    <dimen name="txt_24">24sp</dimen>
+    <dimen name="txt_25">25sp</dimen>
+
+    <dimen name="txt_26">26sp</dimen>
+    <dimen name="txt_27">27sp</dimen>
+    <dimen name="txt_28">28sp</dimen>
+
+    <dimen name="txt_29">29sp</dimen>
+
+    <dimen name="txt_30">30sp</dimen>
+    <dimen name="txt_40">40sp</dimen>
+
+    <dimen name="app_bar_height">450dp</dimen>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/top_title"
+        layout="@layout/layout_title_subtitle" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/cancel_ticet_btn"
+        android:layout_below="@+id/top_title"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:orientation="vertical">
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:id="@+id/cancled_all_seats"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginRight="10dp"
+            android:drawableEnd="@drawable/ic_tik_uncheck"
+            android:gravity="center_vertical"
+            android:text="Cancel all seats"
+            android:textColor="@color/whight"
+            android:textSize="@dimen/txt_18" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:alpha="0.2"
+            android:background="@color/colorAddressDivider" />
+
+
+        <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:alpha="0.4"
+            android:text="CANCEL BY SEATS"
+            android:textColor="@color/whight" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/cancled_ticket_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+
+    <com.ns.custom.CustomButton_ColumbiaSerialRegular
+        android:id="@+id/cancel_ticet_btn"
+        style="@style/StellarWhiteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="left|center"
+        android:text="Button"
+        android:textAllCaps="false"
+        android:visibility="gone" />
+
+</RelativeLayout>

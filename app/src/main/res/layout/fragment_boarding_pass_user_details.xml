@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:fitsSystemWindows="true">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:orientation="vertical">
+
+
+                <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                    android:id="@+id/textView_row_boarding_pass_details_from_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:alpha="0.9"
+                    android:gravity="start"
+                    android:lineSpacingExtra="5dp"
+                    android:text="Bangalore to Delhi "
+                    android:textAllCaps="false"
+                    android:textColor="@color/whight"
+                    android:textSize="@dimen/txt_30" />
+
+                <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                    android:id="@+id/textView_row_boarding_pass_details_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:alpha="0.8"
+                    android:text="@string/booking_summary_date_dummy"
+                    android:textColor="@color/whight"
+                    android:textSize="@dimen/txt_18" />
+
+                <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                    android:id="@+id/textView_boarding_pass_details_departure_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:alpha="0.8"
+                    android:text="@string/booking_summary_departure_time_dummy"
+                    android:textColor="@color/whight"
+                    android:textSize="@dimen/txt_18"
+                    android:visibility="gone" />
+
+                <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                    android:id="@+id/textView_boarding_pass_details_flight_reporting_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:alpha="0.4"
+                    android:text="@string/flight_reportTime"
+                    android:textColor="@color/whight"
+                    android:textSize="@dimen/txt_14"
+                    android:visibility="visible" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:alpha="0.2"
+                    android:background="@color/colorAddressDivider" />
+
+                <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                    android:id="@+id/textView_boarding_pass_details_seats_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.4"
+                    android:text="@string/boarding_seats"
+                    android:textColor="@color/whight"
+                    android:textSize="@dimen/txt_14" />
+
+                <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                    android:id="@+id/textView_boarding_pass_details_seats_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="24dp"
+                    android:alpha="0.8"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/booking_summary_booked_seats_names"
+                    android:textColor="@color/whight"
+                    android:textSize="@dimen/txt_16" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:alpha="0.2"
+                    android:background="@color/colorAddressDivider" />
+
+                <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                    android:id="@+id/textView_boarding_pass_details_passengers_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.4"
+                    android:text="@string/boarding_passengers"
+                    android:textAllCaps="false"
+                    android:textColor="@color/whight"
+                    android:textSize="@dimen/txt_14" />
+
+                <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                    android:id="@+id/textView_boarding_pass_details_passengers_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="24dp"
+                    android:alpha="0.8"
+                    android:ellipsize="end"
+                    android:lineSpacingExtra="10dp"
+                    android:maxLines="1"
+                    android:text="@string/info_passenger_dummy"
+                    android:textColor="@color/whight"
+                    android:textSize="@dimen/txt_16" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:alpha="0.2"
+                    android:background="@color/colorAddressDivider" />
+
+
+                <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                    android:id="@+id/textView_boarding_pass_details_flight_no_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.4"
+                    android:text="@string/boardingPass_flight_title"
+                    android:textColor="@color/whight"
+                    android:textSize="@dimen/txt_14"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView_boarding_pass_details_departure_time" />
+
+                <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                    android:id="@+id/textView_boarding_pass_details_flight_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:alpha="0.8"
+                    android:text="@string/boardingPass_dummy_flight_name"
+                    android:textColor="@color/whight"
+                    android:textSize="@dimen/txt_16"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView_boarding_pass_details_flight_no_title" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:alpha="0.2"
+                    android:background="@color/colorAddressDivider" />
+
+                <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                    android:id="@+id/textView_boarding_pass_details_foods"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.4"
+                    android:text="Dining"
+                    android:textColor="@color/whight"
+                    android:textSize="@dimen/txt_14"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView_boarding_pass_details_departure_time" />
+
+                <com.ns.custom.CustomTxtView_ColumbiaSerialLight
+                    android:id="@+id/textView_boarding_pass_details_foods_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:alpha="0.8"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Cheese Omellete, Poached Egg"
+                    android:textColor="@color/whight"
+                    android:textSize="@dimen/txt_16"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView_boarding_pass_details_flight_no_title" />
+
+                <View
+                    android:id="@+id/view_boarding_pass_divider_foods"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="26dp"
+                    android:alpha="0.2"
+                    android:background="@color/colorAddressDivider" />
+
+                <com.ns.custom.CustomButton_ColumbiaSerialRegular
+                    android:id="@+id/button_download"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginBottom="23dp"
+                    android:background="@drawable/drawable_seat_confirm_select_bg"
+                    android:gravity="center_vertical|start"
+                    android:letterSpacing="0.05"
+                    android:paddingStart="30dp"
+                    android:text="Download"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorButtonNew"
+                    android:textSize="@dimen/txt_22" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <include
+            layout="@layout/tc_content_slide_up_view"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>
